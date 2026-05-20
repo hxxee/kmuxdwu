@@ -47,7 +47,7 @@ const Main = ({ dataList }) => {
       navigate(`/${matchedData.Result}/${matchedData.Id}`);
     } else {
       console.log(matchedData);
-      alert("일치하는 정보가 없습니다. 다시 확인해주세요!");
+      alert("일치하는 정보가 없습니다.");
     }
   };
 
